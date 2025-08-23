@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import { Github } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "StarkBerry Software",
@@ -17,9 +18,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="font-semibold">StarkBerry</Link>
             <div className="flex items-center gap-4 text-sm">
               <Link href="/projects">Projects</Link>
-              <Link href="/blog">Blog</Link>
-              <Link href="/about">About</Link>
-              <Link href="/contact" className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium bg-black text-white">Contact</Link>
+              {/* GitHub link with icon */}
+              <a
+                href="https://github.com/zachk-dev"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1 hover:text-gray-600"
+              >
+                <Github size={18} />
+                <span className="hidden sm:inline">GitHub</span>
+              </a>
             </div>
           </nav>
         </header>
