@@ -1,5 +1,6 @@
 // src/app/page.tsx
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomePage() {
   const stats = [
@@ -11,7 +12,18 @@ export default function HomePage() {
   return (
     <div className="space-y-10">
       <section className="text-center space-y-6">
-        <h1 className="text-7xl sm:text-9xl font-bold tracking-tight">StarkBerry Software</h1>
+                {/* Accessible, SEO-friendly hidden heading */}
+        <h1 className="sr-only">StarkBerry Software</h1>
+
+        <div className="flex justify-center">
+          <Image
+            src="/logo.png"     // or "/logo.svg"
+            alt="StarkBerry Software logo"
+            width={360}         // tweak size as needed
+            height={360}
+            priority
+          />
+        </div>
         <p className="text-gray-600 max-w-2xl mx-auto">
           Solo studio shipping small, sharp tools — Apps, VR games, and Web Extensions — to learn fast and help people faster.
         </p>
