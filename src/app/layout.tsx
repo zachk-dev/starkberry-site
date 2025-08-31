@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/terms">Terms</Link>
               <a href="https://github.com/zachk-dev" target="_blank" rel="noreferrer">GitHub</a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/zachary---kushner/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1 hover:text-gray-600"
