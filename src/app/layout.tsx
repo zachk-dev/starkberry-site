@@ -41,6 +41,30 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/privacy">Privacy</Link>
               <Link href="/terms">Terms</Link>
               <a href="https://github.com/zachk-dev" target="_blank" rel="noreferrer">GitHub</a>
+              <a
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1 hover:text-gray-600"
+              >
+                <svg
+                  width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                  aria-hidden="true"
+                >
+                    <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
+                            2.76 2.24 5 5 5h14c2.76 0 
+                            5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
+                            19h-3v-10h3v10zm-1.5-11.27c-.97 
+                            0-1.75-.79-1.75-1.76s.78-1.75 
+                            1.75-1.75 1.75.78 
+                            1.75 1.75-.78 1.76-1.75 
+                            1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.88 
+                            0-2.17 1.46-2.17 2.97v5.7h-3v-10h2.88v1.37h.04c.4-.75 
+                            1.38-1.54 2.84-1.54 3.04 0 3.6 
+                            2 3.6 4.59v5.58z"/>
+                </svg>
+                <span className="hidden sm:inline">LinkedIn</span>
+              </a>
             </div>
           </div>
         </footer>
