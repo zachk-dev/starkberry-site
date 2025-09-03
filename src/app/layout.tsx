@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="hidden sm:inline">GitHub</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/zachary-kushner" // <-- replace with your LinkedIn
+                href="https://www.linkedin.com/in/zachary---kushner"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1 hover:text-gray-600"
