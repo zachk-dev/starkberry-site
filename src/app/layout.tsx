@@ -28,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Github size={18} />
                 <span className="hidden sm:inline">GitHub</span>
               </a>
+              <text> --- </text>
               <a
                 href="https://www.linkedin.com/in/zachary---kushner"
                 target="_blank"
