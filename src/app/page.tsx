@@ -27,6 +27,9 @@ export default function HomePage() {
         <p className="text-gray-600 max-w-2xl mx-auto">
           Solo studio shipping small, sharp tools — Apps, VR games, and Web Extensions — to learn fast and help people faster.
         </p>
+        <p>
+          <em>Site Under Construction</em>
+        </p>
         <div className="flex items-center justify-center gap-3">
           <Link className="btn btn-primary" href="/projects">See projects</Link>
           <Link className="btn" href="/blog">Read devlogs</Link>
