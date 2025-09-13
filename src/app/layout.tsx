@@ -6,7 +6,7 @@ import { Github } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "StarkBerry Software",
-  description: "Solo studio shipping Apps, VR games, and Chrome extensions.",
+  description: "Solo studio shipping Apps, VR games, and Chrome extensions.\nSiteUnderConstruction",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
