@@ -28,7 +28,7 @@ export default function HomePage() {
           Solo studio shipping small, sharp tools — Apps, VR games, and Web Extensions — to learn fast and help people faster.
         </p>
         <p>
-          <em>Site Under Construction</em>
+          <em>Site Under Construction, will be finished by end of month</em>
         </p>
         <div className="flex items-center justify-center gap-3">
           <Link className="btn btn-primary" href="/projects">See projects</Link>
